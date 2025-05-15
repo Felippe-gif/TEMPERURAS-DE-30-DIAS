@@ -1,0 +1,20 @@
+1.Crie um vetor para armazenar as temperaturas registradas ao longo de 30 dias.
+2. Solicite ao usuário que preencha o vetor com 30 temperaturas (números decimais,
+usando float), uma para cada dia.
+3. Exiba o vetor inicial de temperaturas antes de qualquer processamento.
+4. Calcule a média mensal das temperaturas sem usar funções prontas como sum() ou
+mean().
+5. Exiba a média mensal de temperatura.
+6. Exiba as temperaturas que estão acima da média.
+7. Exiba a quantidade de dias com temperatura acima da média.
+8. Implemente ao menos uma função que tenha parâmetros passados por referência.
+
+
+Exemplo de saída esperada:
+Vetor inicial de temperaturas: 10, 21, -2, 25, 30, 5, 35, 27, 20, 38,
+19, -3, 8, 15, 14, 7, 2, 3, -5, 6, 1, -1, 18, 12, 4, -3, 23, 11, 24,
+9,
+Média mensal de temperatura: 12.43
+Temperaturas acima da média: 21, 25, 30, 35, 27, 20, 38, 19, 15, 14,
+18, 23, 24,
+Quantidade de dias com temperatura acima da média: 13
