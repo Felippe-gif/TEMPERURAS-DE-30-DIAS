@@ -1,0 +1,26 @@
+print("\n\t\t --- TEMPERATURAS DE 30 DIAS --- \n")
+
+def quant_e_acima_media(temperaturas, media):
+    quant = 0
+    acima_media = []
+    for temperatura in temperaturas:
+        if temperatura > media:
+            acima_media.append(temperatura)
+            quant += 1
+    return quant, acima_media
+
+
+temperaturas = []
+
+for _ in range(0,30):
+    t = float(input("digite a temperarura: "))
+    temperaturas.append(t)
+
+media = sum(temperaturas) / 30
+
+quant, acima_media = quant_e_acima_media(temperaturas,media)
+        
+print(f"Vetor inicial de temperatura: {temperaturas}")
+print(f'Media mensal de temperarura: {media:.2f}')
+print(f'Temperaturas acima da media:{acima_media}')
+print(f'Quantidade de dias com temperatura acima da media : {quant}'
